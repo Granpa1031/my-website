@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的網站 - 聯繫</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="about.html">關於</a></li>
+                <li><a href="contact.html" class="active">聯繫</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>聯繫我們</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content-section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>聯繫信息</h2>
+                    <p>
+                        <strong>郵箱：</strong> info@mywebsite.com<br>
+                        <strong>電話：</strong> +886-123-456-789<br>
+                        <strong>地址：</strong> 台灣，台北市
+                    </p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <h2>聯繫表單</h2>
+                    
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">郵箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">訊息</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">發送訊息</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的網站。版權所有。</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
