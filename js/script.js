@@ -1,3 +1,17 @@
+document.body.innerHTML= `
+<div style="
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+font-size:48px;
+background:black;
+color:red;
+">
+SITE BROKEN
+</div>
+`;
+
 // 平滑滾動
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
